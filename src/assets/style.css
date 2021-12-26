@@ -1,0 +1,123 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   font-family: sans-serif;
+}
+
+.container {
+   margin-top: 100px;
+   width: 500px;
+   height: auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 50px;
+}
+
+.input-part {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 20px;
+}
+
+.inp {
+   padding: 10px;
+   border: 2px solid rgb(141, 75, 207);
+   outline: none;
+   border-radius: 5px;
+   font-size: .9rem;
+}
+
+.btnAdd {
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(141, 75, 207);
+   color: #fff;
+   outline: none;
+}
+
+.list-part {
+   margin-top: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.list {
+   list-style: none;
+}
+
+.listEl {
+   width: 300px;
+   height: 40px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin-bottom: 10px;
+   border: 1px solid rgb(218, 217, 217);
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+}
+
+.item {
+   cursor: pointer;
+}
+
+.item.completed {
+   text-decoration: line-through;
+   color: #888;
+}
+
+.trash {
+   background: red;
+   color: #fff;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   display: grid;
+   place-content: center;
+   cursor: pointer;
+}
+
+.result-table {
+   margin-top: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.completed {
+   color: green;
+}
+
+.uncompleted {
+   color: red;
+}
+
+.warning {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   color: #000;
+}
+
+.warning div {
+   padding: 20px 0;
+   border-radius: 5px;
+   width: 300px;
+   text-align: center;
+   background: rgb(201, 143, 248);
+   font-size: 1.1rem;
+}
+
+
